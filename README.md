@@ -32,9 +32,10 @@ This application is created using MySQL, Node, Express, Handlebars and ORM to lo
 │   └── assets
 │       ├── css
 │       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
+│       ├── img
+│       │   └── burger.png
+│       └── js 
+│            └── burger.js
 │
 ├── server.js
 │
