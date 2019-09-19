@@ -41,8 +41,6 @@ function objToSql(ob) {
 }
 
 
-
-
 var orm = {
     selectAll: function (tableInput, cb) {
         var queryString = "SELECT * FROM" + tableInput + ";";
@@ -55,7 +53,7 @@ var orm = {
 
     },
 
-    insertOne: function (table, cols, vals, cd) {
+    insertOne: function (table, cols, vals, cb) {
         var queryString = "INSERT INTO " + table;
 
         queryString += " (";
@@ -77,7 +75,7 @@ var orm = {
 
     },
 
-    updateOne: function (table, objColVal, condition, cd) {
+    updateOne: function (table, objColVal, condition, cb) {
         var queryString = "UPDATE " + table;
 
         queryString += " SET ";
@@ -111,5 +109,5 @@ var orm = {
     }
 }
 
-//export the orm onject for the model burger.js
+//export the orm object for the model burger.js
 module.exports = orm;
