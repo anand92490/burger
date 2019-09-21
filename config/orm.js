@@ -43,7 +43,7 @@ function objToSql(ob) {
 
 var orm = {
     selectAll: function (tableInput, cb) {
-        var queryString = "SELECT * FROM" + tableInput + ";";
+        var queryString = "SELECT * FROM " + tableInput + ";";
         connection.query(queryString, function (err, result) {
             if (err) {
                 throw err;
@@ -94,7 +94,7 @@ var orm = {
     },
 
     delete: function (table, condition, cb) {
-        var queryString = "DELETE FROM" + table;
+        var queryString = "DELETE FROM " + table;
         queryString += " WHERE ";
         queryString += condition;
         console.log(queryString);
