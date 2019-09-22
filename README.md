@@ -1,11 +1,12 @@
 # 🍔 Eat-da-Burger!
 
-Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+Eat-Da-Burger! is a burger logger app that lets users input the names of burgers they'd like to eat and devour the burger virtually.
+
 ##### https://powerful-brushlands-10172.herokuapp.com/
 
 ## Overview
 
-This application is created using MySQL, Node, Express, Handlebars and ORM to log the burgers. I've used MVC (Model View Controller) design pattern. Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.
+This application is created using MySQL, Node, Express, Handlebars and ORM to log the burgers. It uses MVC (Model View Controller) design pattern. Node and MySQL are used to query and route data in the app, and Handlebars to generate the HTML.
 
  ## Directory structure
  
@@ -45,3 +46,6 @@ This application is created using MySQL, Node, Express, Handlebars and ORM to lo
     └── layouts
         └── main.handlebars
 ```
+## Screenshot
+
+![deployed screenshot](/assets/img/burgerapp.png)
