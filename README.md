@@ -48,4 +48,4 @@ This application is created using MySQL, Node, Express, Handlebars and ORM to lo
 ```
 ## Screenshot
 
-![deployed screenshot](/assets/img/burgerapp.png)
+![](public/assets/img/burgerapp.png)
