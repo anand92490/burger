@@ -75,11 +75,11 @@ var orm = {
 
     },
 
-    updateOne: function (table, objColVal, condition, cb) {
+    updateOne: function (table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
         queryString += " SET ";
-        queryString += objToSql(objColVal);
+        queryString += objToSql(objColVals);
         queryString += " WHERE ";
         queryString += condition;
 
