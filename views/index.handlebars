@@ -1,10 +1,11 @@
 <div class="container wrapper">
     <div class="jumbotron text-center">
       <h1 class="display-3"><strong> Eat-Da-Burger</strong></h1>
-   
-      <p class="lead mt-4"><i class="fa fa-cutlery" aria-hidden="true"></i>CHITOWN'S BEST!!</p>     
+      <p class="lead mt-4"><i aria-hidden="true"></i>CHI-TOWN'S BEST!!</p>     
     </div>
-     <img src="/public/assets/img/burger.png" alt="burger image">  
+    <div class="img-container">
+           <img src="/assets/img/burger.png" height="250" width="auto" alt="burger image">
+    </div><br>
     <div class="row text-center">
       <div class="col-md-6 offset-md-3">
       <div class="card">
@@ -14,10 +15,10 @@
         <div class="card-body">
           <form class="create-form">
             <div class="form-group">
-            <label for="burgerName">Burger Name</label><br>
             <input type="text" id="name" name="burgerName">
             </div>
-            <button type="submit" class="btn">Add a Burger</button>
+            <button type="submit" class="btn btn-info">Submit</button>
+            <p><small>Enter a burger you want to eat! Click the submit button.</small></p>
           </form>
         </div>
       </div>      
@@ -62,9 +63,6 @@
                 {{#if devoured}}
                 <li>
                 {{ burger_name }} 
-                <div class="col">
-                   <button class="btn btn-warning  btn-sm devour-btn" data-id={{id}} data-status={{devoured}}>🗑️Delete</button>
-                   </div> 
                 </li>
                 {{/if}}
               {{/each}}

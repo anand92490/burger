@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
     password: "bruapg0t5rtb5zdi",
     database: "worj7qbkxxhxf4jg"
   });
-  
+
   // Make connection.
 connection.connect(function(err) {
     if (err) {

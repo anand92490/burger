@@ -1,3 +1,65 @@
-.jumbotron{
-    background-color: aquamarine;
+body {
+	color: rgb(24, 15, 39);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+	height: 100%;
 }
+.container{
+    background: #c6ddf346;
+}
+.img-container{
+    text-align: center;  
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: rgba(131, 161, 111, 0.356);
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.jumbotron {
+	background-color: rgba(29, 93, 230, 0.24);
+	color: rgba(22, 18, 77, 0.849);
+	background-repeat: no-repeat;
+}
+
+
+.lead {
+	font-weight: bold;
+}
+
+.card-header {
+	background-color: rgba(182, 198, 233, 0.637);
+	font-size: 20px;	
+}
+
+.btn {
+	background-color: #7DA315;
+}
+
+.wrapper {
+	min-height: 90%;
+	margin-bottom: 30px;
+}	
+
+.card-body {
+	background-color: rgba(141, 132, 130, 0.774);
+	background: linear-gradient(to right, rgba(12, 74, 189, 0.377), rgba(174, 172, 184, 0.425));
+}
+
+input[type="text"] {
+	background-color: rgb(201, 240, 241);
+}
+
